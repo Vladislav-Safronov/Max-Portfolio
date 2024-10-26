@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 @font-face {
   font-family: 'Rubik';
   src: url(./assets/fonts/Rubik.ttf);
@@ -11,4 +12,50 @@
 @font-face {
   font-family: 'Truet';
   src: url(./assets/fonts/Truet.ttf);
+}
+
+@media (max-width: 1164px) {
+    html {
+      font-size: 15px;
+    }
+}
+@media (max-width: 1094px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1010px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (max-width: 829px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 756px) {
+  html {
+    font-size: 11px;
+  }
+}
+/* @media (max-width: 690px) {
+  html {
+    font-size: 10px;
+  }
+} */
+@media (max-width: 530px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 474px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media (max-width: 392px) {
+  html {
+    font-size: 8px;
+  }
 }
