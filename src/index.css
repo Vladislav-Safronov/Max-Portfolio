@@ -3,16 +3,15 @@
 @tailwind utilities;
 
 
-
 @font-face {
   font-family: 'Rubik';
   src: url(./assets/fonts/Rubik.ttf);
 }
-
 @font-face {
   font-family: 'Truet';
   src: url(./assets/fonts/Truet.ttf);
 }
+
 
 @media (max-width: 1164px) {
     html {
@@ -39,11 +38,6 @@
     font-size: 11px;
   }
 }
-/* @media (max-width: 690px) {
-  html {
-    font-size: 10px;
-  }
-} */
 @media (max-width: 530px) {
   html {
     font-size: 10px;

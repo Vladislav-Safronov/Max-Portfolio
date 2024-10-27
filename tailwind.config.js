@@ -14,7 +14,8 @@ export default {
         'red1': '#D61204', 
       },
       backgroundImage: {
-        'scratches': "url('./assets/img/scratches.png')",
+        'scratches': "url('./assets/img/header/scratches.png')",
+        'carbon': "url('./assets/img/section3/carbon.png')",
       },
       fontFamily: {
         'rubik': ['Rubik'],
